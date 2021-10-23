@@ -1,0 +1,49 @@
+{
+  "name": "nodejs-mongodb-backend-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple and Secure Rest API Boilerplate, using Nodejs, Mongodb.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node --trace-warnings server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstroArbaaz/nodejs-mongodb-backend-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "multer",
+    "amazon s3",
+    "jwt",
+    "authentication",
+    "rest api",
+    "nodemon"
+  ],
+  "author": "arbaaz",
+  "author_email": "astroarbaaz@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstroArbaaz/nodejs-mongodb-backend-boilerplate/issues"
+  },
+  "homepage": "https://github.com/AstroArbaaz/nodejs-mongodb-backend-boilerplate#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.0.11",
+    "multer": "^1.4.3",
+    "nanoid": "^3.1.30",
+    "nodemailer": "^6.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
